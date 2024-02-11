@@ -8,10 +8,6 @@
     color: white; 
   }
   
-  .todo-container {
-    width: 300px;
-  }
-  
   .todo-item {
     margin-bottom: 8px;
     border-radius: 8px; /* Add rounded corners */
@@ -19,22 +15,3 @@
     background-color: rgba(72, 13, 174, 0.837); /* Add a semi-transparent background */
   }
   
-  .add-button,
-  .remove-button {
-    background-color: rgb(191, 255, 0);
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    margin-top: 8px;
-    cursor: pointer;
-    border-radius: 5px; /* Add rounded corners to buttons */
-  }
-  
-  .remove-button {
-    background-color: red;
-  }
-  
-  .add-button:hover,
-  .remove-button:hover {
-    opacity: 0.8;
-  }
